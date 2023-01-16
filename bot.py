@@ -4,9 +4,9 @@ from pyrogram.types import Message
 
 bot = CLient(
       "Hunter",
-      api_id=22056275,
-      api_hash=5ef568ff80296900609afecbe697b87c,
-      bot_token=5951991193:AAFz1fqy68ThXtiMHIOdOR6DMvWOey_kdJo
+      api_id=API_ID,
+      api_hash=API_HASH,
+      bot_token=BOT_TOKEN
 )
 
 @Client.on_message(filters.commands("start") & filters.private)
